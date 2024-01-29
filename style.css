@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.nav-links{
+    display: flex;
+    align-items:center;
+    margin: 5px;
+    list-style: none;
+    font-size: small;
+}
+.nav-title{
+    color: aliceblue;
+    margin: 5px;
+}
+
+.nav-links a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+}
+.btn{
+    background-color: rgb(26, 175, 175);
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.datos{
+    border: 2px solid gainsboro;
+    height: auto;
+    width: 200px;
+    margin: 10px;
+}
+.educacion{
+    border: 2px solid gainsboro;
+    height: auto;
+    width: 200px;
+    margin: 10px;
+}
+.connections{
+    border: 2px solid gainsboro;
+    height: auto;
+    width: 200px;
+    margin: 10px;
+}
+.yourconnecs{
+    border: 2px solid gainsboro;
+    height: auto;
+    width: 200px;
+    margin: 10px;
+}
+.portada{
+    background-color: aqua;
+    width: 200px;
+    height: 50px;
+}
+.bio{
+    font-size: 10px;
+    padding: 10px;
+    padding-top: 15px;
+    position: relative;
+}
+.icon{
+    width: 10px;
+    height: 12px;
+}
+.bio h3{
+    font-size: 10px;
+    line-height: 2;
+}
+.imgprofile{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.tittle p{
+    background-color: rgb(76, 76, 76);
+    color: aliceblue;
+    padding-left: 15px;
+    font-size: 10px;
+    height: 15px;
+}
+.content h1{
+    font-size: 12px;
+}
+.content h2{
+    font-size: 10px;
+    color: grey;
+    margin-top: 5px;
+}
+#h2{
+    color: black;
+    margin-top: 5px;
+}
+.content{
+    padding: 10px;
+}
+.connections .tittle p{
+    padding: 10px;
+}
+.connections .tittle p span{
+    padding: 2px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 5px;
+}
+.imgprofile2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.yourconnecs .tittle p{
+    padding: 10px;
+}
+.yourconnecs .tittle p span{
+    padding: 2px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}
+.viewmore{
+    padding: 5px;
+    border-top: 2px solid gainsboro;
+    
+}
+
